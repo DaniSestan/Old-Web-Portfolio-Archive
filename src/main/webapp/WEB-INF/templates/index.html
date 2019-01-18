@@ -1,0 +1,643 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Dania Sestan</title>
+
+
+	<link rel="icon" th:href="@{/images/icons/favicon.ico}" href="../../images/icons/favicon.ico" type="image/png"/>
+
+	<!--<link rel="stylesheet" th:href="@{/fonts/uuo5okh.css}" href="../../fonts/uuo5okh.css" />-->
+	<link rel="stylesheet" type="text/css" th:href="@{/fonts/font-awesome-4.7.0/css/font-awesome.min.css}" href="../../fonts/font-awesome-4.7.0/css/font-awesome.css"/>
+	<!--<link rel="stylesheet" type="text/css" th:href="@{/fonts/Linearicons-Free-v1.0.0/icon-font.min.css}" href="../../fonts/Linearicons-Free-v1.0.0/icon-font.min.css"/>-->
+	<link rel="stylesheet" th:href="@{/https://cdn.linearicons.com/free/1.0.0/icon-font.min.css}" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" />
+
+	<link rel="stylesheet" type="text/css" th:href="@{/css/main.css}" href="../../css/main.css"/>
+	<link rel="stylesheet" type="text/css" th:href="@{/css/portfolio-style.css}" href="../../css/portfolio-style.css"/>
+	<link rel="stylesheet" type="text/css" th:href="@{/css/about-me-style.css}" href="../../css/about-me-style.css"/>
+	<link rel="stylesheet" type="text/css" th:href="@{/css/project-covers-style.css}" href="../../css/project-covers-style.css"/>
+	<link rel="stylesheet" type="text/css" th:href="@{/css/contact-util.css}" href="../../css/contact-util.css"/>
+	<link rel="stylesheet" type="text/css" th:href="@{/css/contact-main.css}" href="../../css/contact-main.css"/>
+
+	<!--spring mail stylesheets/scripts [start]======================================================-->
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Raleway:400,300,600" />
+	<!--<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" />-->
+	<!--<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />-->
+	<!--<link rel="stylesheet" href="../../css/springmailmain.css" th:href="@{/css/springmailmain.css}" />-->
+	<script src="//cdn.ckeditor.com/4.4.7/standard/ckeditor.js"></script>
+	<!--spring mail stylesheets/scripts [end]======================================================-->
+
+	<link rel="canonical" href="https://www.daniasestan.com" />
+
+</head>
+
+<body class="has-touch link-transition">
+
+<!--mobile navigation screen content [start]==============================================================================================================-->
+<div class="js-responsive-nav">
+	<div class="responsive-nav has-social">
+		<div class="close-responsive-click-area js-close-responsive-nav">
+			<div class="close-responsive-button"></div>
+		</div>
+		<nav class="responsive-content nav-container js-editable-target editable anchor">
+			<div class="link-title">
+				<a href="#work">Work</a>
+			</div>
+			<div class="link-title">
+				<a href="#about-me">About Me</a>
+			</div>
+			<div class="link-title">
+				<a href="#contact">Contact</a>
+			</div>
+		</nav>
+		<div class="social nav-social js-editable-target editable" data-context="theme.nav">
+			<ul>
+				<li>
+					<a href="https://www.linkedin.com/in/daniasestan" target="_blank">
+						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 24" style="enable-background:new 0 0 30 24;" xml:space="preserve" class="icon">
+	              <path id="path-1_24_" d="M19.6,19v-5.8c0-1.4-0.5-2.4-1.7-2.4c-1,0-1.5,0.7-1.8,1.3C16,12.3,16,12.6,16,13v6h-3.4
+	                c0,0,0.1-9.8,0-10.8H16v1.5c0,0,0,0,0,0h0v0C16.4,9,17.2,7.9,19,7.9c2.3,0,4,1.5,4,4.9V19H19.6z M8.9,6.7L8.9,6.7
+	                C7.7,6.7,7,5.9,7,4.9C7,3.8,7.8,3,8.9,3s1.9,0.8,1.9,1.9C10.9,5.9,10.1,6.7,8.9,6.7z M10.6,19H7.2V8.2h3.4V19z"></path>
+	            </svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://plus.google.com/117326553999000914485" target="_blank">
+						<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 24" class="icon">
+							<path id="Shape" d="M11.21,11v2.35h3.92a3.71,3.71,0,0,1-3.89,3,4.34,4.34,0,0,1,0-8.67,3.86,3.86,0,0,1,2.74,1l1.84-1.74a6.58,6.58,0,0,0-4.6-1.79,
+									6.87,6.87,0,0,0,0,13.73,6.34,6.34,0,0,0,6.59-6.71A6.32,6.32,0,0,0,17.69,11H11.21Z"></path>
+							<path id="Shape-2" d="M25.94,11H24V9.06H22V11H20v2h2v1.92h2V13h2"></path>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/daniasestan" target="_blank">
+						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 24" style="enable-background:new 0 0 30 24;" xml:space="preserve" class="icon">
+			          <g>
+			            <path class="st0" d="M15,4c-4.5,0-8.2,3.7-8.2,8.2c0,3.6,2.4,6.7,5.6,7.8c0.4,0.1,0.6-0.2,0.6-0.4c0-0.2,0-0.8,0-1.5
+				            c-2.3,0.5-2.8-1-2.8-1c-0.4-0.9-0.9-1.2-0.9-1.2c-0.7-0.5,0.1-0.5,0.1-0.5c0.8,0.1,1.3,0.8,1.3,0.8c0.7,1.3,1.9,0.9,2.4,0.7
+				            c0.1-0.5,0.3-0.9,0.5-1.1c-1.8-0.2-3.7-0.9-3.7-4.1c0-0.9,0.3-1.6,0.8-2.2c-0.1-0.2-0.4-1,0.1-2.2c0,0,0.7-0.2,2.3,0.8
+				            C13.6,8.1,14.3,8,15,8c0.7,0,1.4,0.1,2.1,0.3c1.6-1.1,2.3-0.8,2.3-0.8c0.4,1.1,0.2,2,0.1,2.2c0.5,0.6,0.8,1.3,0.8,2.2
+				            c0,3.2-1.9,3.8-3.7,4c0.3,0.3,0.6,0.8,0.6,1.5c0,1.1,0,2,0,2.3c0,0.2,0.1,0.5,0.6,0.4c3.3-1.1,5.6-4.2,5.6-7.8
+				            C23.2,7.7,19.5,4,15,4z">
+			            </path>
+			            <path class="st1" d="M9.9,15.8c0,0-0.1,0.1-0.1,0c-0.1,0-0.1-0.1-0.1-0.1c0,0,0.1-0.1,0.1,0C9.9,15.7,9.9,15.7,9.9,15.8L9.9,15.8z
+			              M9.8,15.7">
+			            </path>
+			            <path class="st1" d="M10.2,16.1c0,0-0.1,0-0.2,0C10,16.1,10,16,10,15.9c0,0,0.1,0,0.2,0C10.3,16,10.3,16.1,10.2,16.1L10.2,16.1z
+			              M10.2,16.1">
+			            </path>
+			            <path class="st1" d="M10.6,16.6c-0.1,0-0.1,0-0.2-0.1c-0.1-0.1-0.1-0.2,0-0.2c0.1,0,0.1,0,0.2,0.1C10.6,16.5,10.6,16.6,10.6,16.6
+			              L10.6,16.6z M10.6,16.6">
+			            </path>
+			            <path class="st1" d="M11,17.1c0,0-0.1,0-0.2,0c-0.1-0.1-0.1-0.2,0-0.2c0,0,0.1,0,0.2,0C11,16.9,11.1,17,11,17.1L11,17.1z M11,17.1"></path>
+			            <path class="st1" d="M11.6,17.3c0,0.1-0.1,0.1-0.2,0.1c-0.1,0-0.2-0.1-0.1-0.2c0-0.1,0.1-0.1,0.2-0.1
+			              C11.6,17.2,11.6,17.3,11.6,17.3L11.6,17.3z M11.6,17.3">
+			            </path>
+			            <path class="st1" d="M12.3,17.4c0,0.1-0.1,0.1-0.2,0.1c-0.1,0-0.2-0.1-0.2-0.1c0-0.1,0.1-0.1,0.2-0.1
+			              C12.2,17.3,12.3,17.3,12.3,17.4L12.3,17.4z M12.3,17.4">
+			            </path>
+			            <path class="st1" d="M12.9,17.3c0,0.1-0.1,0.1-0.2,0.2c-0.1,0-0.2,0-0.2-0.1c0-0.1,0.1-0.1,0.2-0.2C12.8,17.2,12.9,17.2,12.9,17.3
+			             L12.9,17.3z M12.9,17.3">
+			            </path>
+			          </g>
+		          </svg>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!--mobile navigation screen content [start]==============================================================================================================-->
+
+<header class="site-header js-site-header js-editable-target editable  js-fixed-nav js-editable-target editable" data-context="theme.nav">
+	<nav class="nav-container js-editable-target editable non-responsive-content anchor">
+		<div class="link-title">
+			<a href="#work" >Work</a>
+		</div>
+		<div class="link-title">
+			<a href="#about-me" >About Me</a>
+		</div>
+		<div class="link-title">
+			<a href="#contact" >Contact</a>
+		</div>
+	</nav>
+	<div class="logo-wrap js-editable-target editable" data-context="theme.nav">
+		<div class="logo logo-text">
+			<span class="preserve-whitespace">no-logo</span>
+		</div>
+	</div>
+	<div class="social nav-social js-editable-target editable" data-context="theme.nav">
+		<ul>
+			<li>
+				<a href="https://www.linkedin.com/in/daniasestan" target="_blank">
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 24" style="enable-background:new 0 0 30 24;" xml:space="preserve" class="icon">
+                <path id="path-1_24_" d="M19.6,19v-5.8c0-1.4-0.5-2.4-1.7-2.4c-1,0-1.5,0.7-1.8,1.3C16,12.3,16,12.6,16,13v6h-3.4
+                  c0,0,0.1-9.8,0-10.8H16v1.5c0,0,0,0,0,0h0v0C16.4,9,17.2,7.9,19,7.9c2.3,0,4,1.5,4,4.9V19H19.6z M8.9,6.7L8.9,6.7
+                  C7.7,6.7,7,5.9,7,4.9C7,3.8,7.8,3,8.9,3s1.9,0.8,1.9,1.9C10.9,5.9,10.1,6.7,8.9,6.7z M10.6,19H7.2V8.2h3.4V19z"></path>
+            </svg>
+				</a>
+			</li>
+			<li>
+				<a href="https://plus.google.com/117326553999000914485" target="_blank">
+					<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 24" class="icon"><path id="Shape" d="M11.21,11v2.35h3.92a3.71,3.71,0,0,1-3.89,3,4.34,4.34,0,0,1,0-8.67,3.86,3.86,0,0,1,2.74,1l1.84-1.74a6.58,6.58,0,0,0-4.6-1.79,6.87,6.87,0,0,0,0,13.73,6.34,6.34,0,0,0,6.59-6.71A6.32,6.32,0,0,0,17.69,11H11.21Z"></path><path id="Shape-2" d="M25.94,11H24V9.06H22V11H20v2h2v1.92h2V13h2"></path>
+					</svg>
+				</a>
+			</li>
+			<li>
+				<a href="https://github.com/daniasestan" target="_blank">
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 24" style="enable-background:new 0 0 30 24;" xml:space="preserve" class="icon">
+		          <g>
+		              <path class="st0" d="M15,4c-4.5,0-8.2,3.7-8.2,8.2c0,3.6,2.4,6.7,5.6,7.8c0.4,0.1,0.6-0.2,0.6-0.4c0-0.2,0-0.8,0-1.5
+		              c-2.3,0.5-2.8-1-2.8-1c-0.4-0.9-0.9-1.2-0.9-1.2c-0.7-0.5,0.1-0.5,0.1-0.5c0.8,0.1,1.3,0.8,1.3,0.8c0.7,1.3,1.9,0.9,2.4,0.7
+		              c0.1-0.5,0.3-0.9,0.5-1.1c-1.8-0.2-3.7-0.9-3.7-4.1c0-0.9,0.3-1.6,0.8-2.2c-0.1-0.2-0.4-1,0.1-2.2c0,0,0.7-0.2,2.3,0.8
+		              C13.6,8.1,14.3,8,15,8c0.7,0,1.4,0.1,2.1,0.3c1.6-1.1,2.3-0.8,2.3-0.8c0.4,1.1,0.2,2,0.1,2.2c0.5,0.6,0.8,1.3,0.8,2.2
+		              c0,3.2-1.9,3.8-3.7,4c0.3,0.3,0.6,0.8,0.6,1.5c0,1.1,0,2,0,2.3c0,0.2,0.1,0.5,0.6,0.4c3.3-1.1,5.6-4.2,5.6-7.8
+		              C23.2,7.7,19.5,4,15,4z"></path>
+		              <path class="st1" d="M9.9,15.8c0,0-0.1,0.1-0.1,0c-0.1,0-0.1-0.1-0.1-0.1c0,0,0.1-0.1,0.1,0C9.9,15.7,9.9,15.7,9.9,15.8L9.9,15.8z
+		               M9.8,15.7"></path>
+		              <path class="st1" d="M10.2,16.1c0,0-0.1,0-0.2,0C10,16.1,10,16,10,15.9c0,0,0.1,0,0.2,0C10.3,16,10.3,16.1,10.2,16.1L10.2,16.1z
+		               M10.2,16.1"></path>
+		              <path class="st1" d="M10.6,16.6c-0.1,0-0.1,0-0.2-0.1c-0.1-0.1-0.1-0.2,0-0.2c0.1,0,0.1,0,0.2,0.1C10.6,16.5,10.6,16.6,10.6,16.6
+		              L10.6,16.6z M10.6,16.6"></path>
+		              <path class="st1" d="M11,17.1c0,0-0.1,0-0.2,0c-0.1-0.1-0.1-0.2,0-0.2c0,0,0.1,0,0.2,0C11,16.9,11.1,17,11,17.1L11,17.1z M11,17.1"></path>
+		              <path class="st1" d="M11.6,17.3c0,0.1-0.1,0.1-0.2,0.1c-0.1,0-0.2-0.1-0.1-0.2c0-0.1,0.1-0.1,0.2-0.1
+		              C11.6,17.2,11.6,17.3,11.6,17.3L11.6,17.3z M11.6,17.3"></path>
+		              <path class="st1" d="M12.3,17.4c0,0.1-0.1,0.1-0.2,0.1c-0.1,0-0.2-0.1-0.2-0.1c0-0.1,0.1-0.1,0.2-0.1
+		              C12.2,17.3,12.3,17.3,12.3,17.4L12.3,17.4z M12.3,17.4"></path>
+		              <path class="st1" d="M12.9,17.3c0,0.1-0.1,0.1-0.2,0.2c-0.1,0-0.2,0-0.2-0.1c0-0.1,0.1-0.1,0.2-0.2C12.8,17.2,12.9,17.2,12.9,17.3
+		              L12.9,17.3z M12.9,17.3"></path>
+		          </g>
+	          </svg>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="hamburger-click-area js-hamburger">
+		<div class="hamburger">
+			<i></i>
+			<i></i>
+			<i></i>
+		</div>
+	</div>
+</header>
+<div class="header-placeholder"></div>
+
+<!--'Masthead' content [start]==============================================================================================================-->
+<div class="masthead js-masthead-fixed">
+	<div class="masthead-contents">
+		<div class="masthead-text js-masthead-text">
+			<h1 class="js-editable-target editable preserve-whitespace" data-context="page.masthead">Dania Sestan</h1>
+			<p class="js-editable-target editable preserve-whitespace" data-context="page.masthead">Developer + Designer</p>
+			<!--<div class="masthead-buttons">-->
+			<!--</div>-->
+			<div class="social masthead-social js-editable-target editable" data-context="page.masthead">
+				<ul>
+					<li>
+						<a href="https://www.linkedin.com/in/daniasestan" target="_blank">
+							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 24" style="enable-background:new 0 0 30 24;" xml:space="preserve" class="icon">
+                  <path id="path-1_24_" d="M19.6,19v-5.8c0-1.4-0.5-2.4-1.7-2.4c-1,0-1.5,0.7-1.8,1.3C16,12.3,16,12.6,16,13v6h-3.4
+                    c0,0,0.1-9.8,0-10.8H16v1.5c0,0,0,0,0,0h0v0C16.4,9,17.2,7.9,19,7.9c2.3,0,4,1.5,4,4.9V19H19.6z M8.9,6.7L8.9,6.7
+                    C7.7,6.7,7,5.9,7,4.9C7,3.8,7.8,3,8.9,3s1.9,0.8,1.9,1.9C10.9,5.9,10.1,6.7,8.9,6.7z M10.6,19H7.2V8.2h3.4V19z"></path>
+                </svg>
+						</a>
+					</li>
+					<li>
+						<a href="https://plus.google.com/117326553999000914485" target="_blank">
+							<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 24" class="icon"><path id="Shape" d="M11.21,11v2.35h3.92a3.71,3.71,0,0,1-3.89,3,4.34,4.34,0,0,1,0-8.67,3.86,3.86,0,0,1,2.74,1l1.84-1.74a6.58,6.58,0,0,0-4.6-1.79,6.87,6.87,0,0,0,0,13.73,6.34,6.34,0,0,0,6.59-6.71A6.32,6.32,0,0,0,17.69,11H11.21Z"></path><path id="Shape-2" d="M25.94,11H24V9.06H22V11H20v2h2v1.92h2V13h2"></path>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/daniasestan" target="_blank">
+							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 24" style="enable-background:new 0 0 30 24;" xml:space="preserve" class="icon">
+                  <g>
+                    <path class="st0" d="M15,4c-4.5,0-8.2,3.7-8.2,8.2c0,3.6,2.4,6.7,5.6,7.8c0.4,0.1,0.6-0.2,0.6-0.4c0-0.2,0-0.8,0-1.5
+                    c-2.3,0.5-2.8-1-2.8-1c-0.4-0.9-0.9-1.2-0.9-1.2c-0.7-0.5,0.1-0.5,0.1-0.5c0.8,0.1,1.3,0.8,1.3,0.8c0.7,1.3,1.9,0.9,2.4,0.7
+                    c0.1-0.5,0.3-0.9,0.5-1.1c-1.8-0.2-3.7-0.9-3.7-4.1c0-0.9,0.3-1.6,0.8-2.2c-0.1-0.2-0.4-1,0.1-2.2c0,0,0.7-0.2,2.3,0.8
+                    C13.6,8.1,14.3,8,15,8c0.7,0,1.4,0.1,2.1,0.3c1.6-1.1,2.3-0.8,2.3-0.8c0.4,1.1,0.2,2,0.1,2.2c0.5,0.6,0.8,1.3,0.8,2.2
+                    c0,3.2-1.9,3.8-3.7,4c0.3,0.3,0.6,0.8,0.6,1.5c0,1.1,0,2,0,2.3c0,0.2,0.1,0.5,0.6,0.4c3.3-1.1,5.6-4.2,5.6-7.8
+                    C23.2,7.7,19.5,4,15,4z"></path>
+                    <path class="st1" d="M9.9,15.8c0,0-0.1,0.1-0.1,0c-0.1,0-0.1-0.1-0.1-0.1c0,0,0.1-0.1,0.1,0C9.9,15.7,9.9,15.7,9.9,15.8L9.9,15.8z
+                     M9.8,15.7"></path>
+                    <path class="st1" d="M10.2,16.1c0,0-0.1,0-0.2,0C10,16.1,10,16,10,15.9c0,0,0.1,0,0.2,0C10.3,16,10.3,16.1,10.2,16.1L10.2,16.1z
+                     M10.2,16.1"></path>
+                    <path class="st1" d="M10.6,16.6c-0.1,0-0.1,0-0.2-0.1c-0.1-0.1-0.1-0.2,0-0.2c0.1,0,0.1,0,0.2,0.1C10.6,16.5,10.6,16.6,10.6,16.6
+                    L10.6,16.6z M10.6,16.6"></path>
+                    <path class="st1" d="M11,17.1c0,0-0.1,0-0.2,0c-0.1-0.1-0.1-0.2,0-0.2c0,0,0.1,0,0.2,0C11,16.9,11.1,17,11,17.1L11,17.1z M11,17.1"></path>
+                    <path class="st1" d="M11.6,17.3c0,0.1-0.1,0.1-0.2,0.1c-0.1,0-0.2-0.1-0.1-0.2c0-0.1,0.1-0.1,0.2-0.1
+                    C11.6,17.2,11.6,17.3,11.6,17.3L11.6,17.3z M11.6,17.3"></path>
+                    <path class="st1" d="M12.3,17.4c0,0.1-0.1,0.1-0.2,0.1c-0.1,0-0.2-0.1-0.2-0.1c0-0.1,0.1-0.1,0.2-0.1
+                    C12.2,17.3,12.3,17.3,12.3,17.4L12.3,17.4z M12.3,17.4"></path>
+                    <path class="st1" d="M12.9,17.3c0,0.1-0.1,0.1-0.2,0.2c-0.1,0-0.2,0-0.2-0.1c0-0.1,0.1-0.1,0.2-0.2C12.8,17.2,12.9,17.2,12.9,17.3
+                    L12.9,17.3z M12.9,17.3"></path>
+                  </g>
+                </svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="masthead-arrow-container js-masthead-arrow js-editable-target editable" data-context="page.masthead">
+				<div class="masthead-arrow"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="masthead-placeholder js-editable-target editable" data-context="page.masthead"></div>
+<!--'Masthead' content [end]==============================================================================================================-->
+
+<main>
+	<!--'about me' page content [start]==========================================================================================================-->
+	<!--TODO: edit outer-wrapper of final sub page to have height attr that factors in the height of the page footer with link icons-->
+	<div class="about-me-page-outer-wrapper sub-page" id="about-me">
+		<div class="site-wrap cfix js-site-wrap about-me-wrapper">
+			<div class="about-me-page site-container">
+				<div class="about-me-page site-content">
+
+					<!--<main>-->
+					<section class = "about-me-section">
+						<div class="grid-wrapper">
+							<div class="about-me-grid">
+
+								<div class="wia-hdr">
+									<p>Who I Am</p></div>
+								<div class="wia-image"><img src="/images/WebPortfolio.png"></div>
+								<div class="wia-text"><p>Hi, I'm Dania - I'm a recent IT graduate looking for a position as a software developer. I've taken the time to develop my skills in Java full-stack and web app development through personal projects (links provided in the 'Projects' section below) and am currently looking for a position as a developer. To me, programming is like solving a puzzle with code, and it's my outlet for developing creative solutions to different problems. I've never been hesitant to try different platforms and build tools, and am always eager to work with and learn from others about new technologies.
+								</p></div>
+
+								<div class="wid-hdr"><p>What I Do</p></div>
+								<div class="wid-text-main1"><p>Languages</p></div>
+								<div class="wid-text-main2"><p>Tools and Technologies</p></div>
+								<div class="wid-text-main3"><p>Industry Knowledge</p></div>
+								<div class="wid-text-right1">
+									<p>Java</p>
+									<p>JavaScript</p>
+									<p>JSP</p>
+									<p>J2EE</p>
+									<p>jQuery</p>
+									<p>HTML</p>
+									<p>CSS</p>
+									<p>C#</p>
+									<p>Visual Basic</p>
+									<p>SQL</p>
+								</div>
+								<div class="wid-text-right2">
+									<p>Spring</p>
+									<p>Thymeleaf</p>
+									<p>AWS</p>
+									<p>Azure</p>
+									<p>Git</p>
+									<p>Oracle</p>
+									<p>SQL Server</p>
+									<p>MySQL</p>
+									<p>Microsoft Project</p>
+									<p>Adobe Photoshop</p>
+								</div>
+								<div class="wid-text-right3">
+									<p>Java Development</p>
+									<p>Automation</p>
+									<p>SDLC</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<footer class="about-me-page site-footer js-editable-target editable">
+						<div class="footer-text"></div>
+					</footer>
+					<!--</main>-->
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--'about me' page content [end]====================================================================-->
+
+	<!--'projects' page content [start]====================================================================-->
+	<div class="project-covers-page site-wrap cfix js-site-wrap project-covers-wrapper sub-page" id="work">
+
+		<div class="project-covers-page site-container">
+			<div class="project-covers-page site-content">
+
+				<!--<main>-->
+
+				<div class="project-covers-hdr"><p>Projects</p></div>
+
+				<section class="project-covers js-editable-target editable" data-context="page.gallery.covers">
+					<a class="js-editable-target editable project-cover js-project-cover-touch hold-space" href="/checkmate-automation" th:href="@{/checkmate-automation}" data-context="pages" data-identity="id:p5b05d35e63c7beb1a46febf6778a7fd7ce1a3dfd7b878837ae179">
+						<div class="cover-content-container">
+							<div class="cover-image-wrap">
+								<div class="cover-image">
+									<div class="cover cover-normal">
+										<img
+														class="cover__img js-lazy"
+														th:src="@{/images/checkmark.png}"
+														src="../../images/checkmark.png"
+														data-src="../../images/checkmark.png"
+														data-srcset="../../images/checkmark.png 640w,
+													../../images/checkmark.png 1280w,
+													../../images/checkmark.png 1366w,
+													../../images/checkmark.png 1920w,
+													../../images/checkmark.png 2560w,
+													../../images/checkmark.png 5120w"
+														data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1200px / 3)"
+										/>
+									</div>
+								</div>
+							</div>
+							<div class="details-wrap">
+								<div class="details">
+									<div class="details-inner">
+										<div class="title preserve-whitespace">CheckMate Automation</div>
+										<div class="custom1 preserve-whitespace">Standalone Application</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a class="js-editable-target editable project-cover js-project-cover-touch hold-space"
+					   href="/checkmate-web" th:href="@{/checkmate-web}" data-context="pages"
+					   data-identity="id:p5b05d359f094dd71fafa76211b235adde5d343fab345c924637db">
+						<div class="cover-content-container">
+							<div class="cover-image-wrap">
+								<div class="cover-image">
+									<div class="cover cover-normal">
+										<img
+														class="cover__img js-lazy"
+														th:src="@{/images/check-web.png}"
+														src="../../images/check-web.png"
+														data-src="../../images/check-web.png"
+														data-srcset="../../images/check-web.png 640w,
+													../../images/check-web.png 1280w,
+													../../images/check-web.png 1366w,
+													../../images/check-web.png 1920w,
+													../../images/check-web.png 2560w,
+													../../images/check-web.png 5120w"
+														data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1200px / 3)"
+										/>
+									</div>
+								</div>
+							</div>
+							<div class="details-wrap">
+								<div class="details">
+									<div class="details-inner">
+										<div class="title preserve-whitespace">CheckMate Web App</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a class="js-editable-target editable project-cover js-project-cover-touch hold-space"
+					   href="/web-dev" th:href="@{/web-dev}" data-context="pages" data-identity="id:p5b0363fc7c36b90775bc6273a75c3534d4379290ed1c2cf3ecd8b">
+						<div class="cover-content-container">
+							<div class="cover-image-wrap">
+								<div class="cover-image">
+									<div class="cover cover-normal">
+										<img
+														class="cover__img js-lazy"
+														th:src="@{/images/web-dev.png}"
+														src="../../images/web-dev.png"
+														data-src="../../images/web-dev.png"
+														data-srcset="../../images/web-dev.png 640w,
+													../../images/web-dev.png 1280w,
+													../../images/web-dev.png 1366w,
+													../../images/web-dev.png 1920w,
+													../../images/web-dev.png 2560w,
+													../../images/web-dev.png 5120w"
+														data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1200px / 3)"
+										/>
+									</div>
+								</div>
+							</div>
+							<div class="details-wrap">
+								<div class="details">
+									<div class="details-inner">
+										<div class="title preserve-whitespace">Web Development</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+				</section>
+
+				<footer class="project-covers-page site-footer js-editable-target editable">
+					<div class="footer-text"></div>
+				</footer>
+				<!--</main>-->
+			</div>
+		</div>
+	</div>
+	<!--'projects' page content [end]==========================================================================-->
+
+	<!--'contact' page content [start]=============================================================================-->
+	<!--TODO: edit input field borders, and sending mail function in EmailService class, should set javamail recipient to your email address,
+	and use the email parameter as the sender-->
+	<div class="contact-page-wrapper site-wrap cfix js-site-wrap sub-page" id="contact">
+		<div class="contact-page-wrapper site-container">
+			<div class="contact-page-wrapper site-content">
+
+				<!--<main>-->
+				<section class = "contact-form">
+					<div class="container-contact100">
+						<div class="wrap-contact100">
+
+
+
+							<form class="contact100-form validate-form" action="sendmessage.html" th:action="@{/sendmessage}" method="post">
+								<fieldset>
+										<span class="contact100-form-title">
+											Send Us A Message
+										</span>
+									<label class="label-input100" for="sender-name">Tell us your name *</label>
+									<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type name">
+										<input id="sender-name" class="input100" type="text" name="sender-name" placeholder="Eg. Jane Doe"/>
+										<span class="focus-input100"></span>
+									</div>
+
+									<label class="label-input100" for="email">Enter your email *</label>
+									<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+										<input id="email" class="input100" type="text" name="email" placeholder="Eg. example@email.com"/>
+										<span class="focus-input100"></span>
+									</div>
+
+									<label class="label-input100" for="phone">Enter phone number</label>
+									<div class="wrap-input100">
+										<input id="phone" class="input100" type="text" name="phone" placeholder="Eg. +1 800 000000"/>
+										<span class="focus-input100"></span>
+									</div>
+
+									<label class="label-input100" for="body">Message *</label>
+									<div id='textarea-wrapper' class="wrap-input100 validate-input" data-validate = "Message is required">
+										<!--<textarea id="message" class="input100" name="message" placeholder="Write us a message">-->
+										<!--</textarea>-->
+										<!--<span class="focus-input100"></span>-->
+										<textarea id="body" name="body" required="required">
+	                        &lt;p&gt;
+	                            Example template layout.
+	                        &lt;/p&gt;
+	                    </textarea>
+										<script>
+                        CKEDITOR.replace('body', {
+                            allowedContent : true,
+                            height: '400px'
+                        });
+										</script>
+									</div>
+
+									<div id="mail-status" class="mailstatusclass"></div>
+
+									<div class="container-contact100-form-btn">
+										<!--<input type="submit" name="submit" value="Send Message"-->
+										       <!--id="send-message" class="contact100-form-btn"/>-->
+										<a href="/sendmessage" th:href="@{/sendmessage}" id="send-message" class="contact100-form-btn">Send Message</a>
+									</div>
+								</fieldset>
+							</form>
+
+							<!--<div class="contact100-more flex-col-c-m" style="background-image: url('../../images/contact-form-bg.png');">-->
+							<div class="contact100-more flex-col-c-m contact-info-section">
+								<div class="dis-flex size1 p-b-47">
+									<div class="txt1 p-r-25">
+										<span class="lnr lnr-phone-handset"></span>
+									</div>
+									<div class="flex-col size2">
+										<span class="txt1 p-b-20">Lets Talk</span>
+										<span class="txt3">+1 404 644 3434</span>
+									</div>
+								</div>
+								<div class="dis-flex size1 p-b-47">
+									<div class="txt1 p-r-25">
+										<span class="lnr lnr-envelope"></span>
+									</div>
+									<div class="flex-col size2">
+										<span class="txt1 p-b-20">General Support</span>
+										<span class="txt3">contact@daniasestan.com</span>
+									</div>
+								</div>
+								<div class="dis-flex size1 p-b-47">
+									<div class="txt1 p-r-25">
+										<span class="lnr lnr-file-empty"></span>
+									</div>
+									<div class="flex-col size2">
+										<span class="txt1 p-b-20">View My Resume</span>
+										<a href="/" th:href="@{/}">
+											<span id="span-resume-link" class="txt3">Click here to download resume PDF</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--<footer class="contact-form-page site-footer js-editable-target editable">-->
+						<!--<div class="footer-text"></div>-->
+						<!--</footer>-->
+					</div>
+				</section>
+				<!--</main>-->
+			</div>
+		</div>
+	</div>
+
+	<!--'back to top' anchor [start]===========================================================================-->
+	<section class="back-to-top js-editable-target editable">
+		<a href="#"><span class="arrow">&uarr;</span><span class="preserve-whitespace">Back to Top</span></a>
+	</section>
+	<a id="back-to-top-arrow" class="back-to-top-fixed js-editable-target editable js-back-to-top" href="#">
+		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 26 26" style="enable-background:new 0 0 26 26;" xml:space="preserve" class="icon icon-back-to-top">
+        <g>
+          <path d="M13.8,1.3L21.6,9c0.1,0.1,0.1,0.3,0.2,0.4c0.1,0.1,0.1,0.3,0.1,0.4s0,0.3-0.1,0.4c-0.1,0.1-0.1,0.3-0.3,0.4
+	          c-0.1,0.1-0.2,0.2-0.4,0.3c-0.2,0.1-0.3,0.1-0.4,0.1c-0.1,0-0.3,0-0.4-0.1c-0.2-0.1-0.3-0.2-0.4-0.3L14.2,5l0,19.1
+	          c0,0.2-0.1,0.3-0.1,0.5c0,0.1-0.1,0.3-0.3,0.4c-0.1,0.1-0.2,0.2-0.4,0.3c-0.1,0.1-0.3,0.1-0.5,0.1c-0.1,0-0.3,0-0.4-0.1
+	          c-0.1-0.1-0.3-0.1-0.4-0.3c-0.1-0.1-0.2-0.2-0.3-0.4c-0.1-0.1-0.1-0.3-0.1-0.5l0-19.1l-5.7,5.7C6,10.8,5.8,10.9,5.7,11
+	          c-0.1,0.1-0.3,0.1-0.4,0.1c-0.2,0-0.3,0-0.4-0.1c-0.1-0.1-0.3-0.2-0.4-0.3c-0.1-0.1-0.1-0.2-0.2-0.4C4.1,10.2,4,10.1,4.1,9.9
+	          c0-0.1,0-0.3,0.1-0.4c0-0.1,0.1-0.3,0.3-0.4l7.7-7.8c0.1,0,0.2-0.1,0.2-0.1c0,0,0.1-0.1,0.2-0.1c0.1,0,0.2,0,0.2-0.1
+	          c0.1,0,0.1,0,0.2,0c0,0,0.1,0,0.2,0c0.1,0,0.2,0,0.2,0.1c0.1,0,0.1,0.1,0.2,0.1C13.7,1.2,13.8,1.2,13.8,1.3z"/>
+        </g>
+      </svg>
+	</a>
+	<!--'back to top' anchor [end]===========================================================================-->
+
+</main>
+<!--'site footer' [start]===========================================================================-->
+<!--<footer class="site-content site-footer js-editable-target editable">-->
+<!--<div class="social footer-social">-->
+<!--<ul>-->
+<!--<li>-->
+<!--<a href="https://www.linkedin.com/in/daniasestan" target="_blank">-->
+<!--<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 24" style="enable-background:new 0 0 30 24;" xml:space="preserve" class="icon icon-linkedin">-->
+<!--<path id="path-1_24_" d="M19.6,19v-5.8c0-1.4-0.5-2.4-1.7-2.4c-1,0-1.5,0.7-1.8,1.3C16,12.3,16,12.6,16,13v6h-3.4-->
+<!--c0,0,0.1-9.8,0-10.8H16v1.5c0,0,0,0,0,0h0v0C16.4,9,17.2,7.9,19,7.9c2.3,0,4,1.5,4,4.9V19H19.6z M8.9,6.7L8.9,6.7-->
+<!--C7.7,6.7,7,5.9,7,4.9C7,3.8,7.8,3,8.9,3s1.9,0.8,1.9,1.9C10.9,5.9,10.1,6.7,8.9,6.7z M10.6,19H7.2V8.2h3.4V19z"/>-->
+<!--</svg>-->
+<!--</a>-->
+<!--</li>-->
+<!--<li>-->
+<!--<a href="https://plus.google.com/117326553999000914485" target="_blank">-->
+<!--<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 24" class="icon icon-google">-->
+<!--<path id="Shape" d="M11.21,11v2.35h3.92a3.71,3.71,0,0,1-3.89,3,4.34,4.34,0,0,1,0-8.67,3.86,3.86,0,0,1,2.74,1l1.84-1.74a6.58,6.58,0,0,0-4.6-1.79,6.87,6.87,0,0,0,0,13.73,6.34,               6.34,0,0,0,6.59-6.71A6.32,6.32,0,0,0,17.69,11H11.21Z"/><path id="Shape-2" d="M25.94,11H24V9.06H22V11H20v2h2v1.92h2V13h2"/></svg>-->
+<!--</a>-->
+<!--</li>-->
+<!--<li>-->
+<!--<a href="https://github.com/daniasestan" target="_blank">-->
+<!--<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 24" style="enable-background:new 0 0 30 24;" xml:space="preserve" class="icon icon-github">-->
+<!--<g>-->
+<!--<path class="st0" d="M15,4c-4.5,0-8.2,3.7-8.2,8.2c0,3.6,2.4,6.7,5.6,7.8c0.4,0.1,0.6-0.2,0.6-0.4c0-0.2,0-0.8,0-1.5-->
+<!--c-2.3,0.5-2.8-1-2.8-1c-0.4-0.9-0.9-1.2-0.9-1.2c-0.7-0.5,0.1-0.5,0.1-0.5c0.8,0.1,1.3,0.8,1.3,0.8c0.7,1.3,1.9,0.9,2.4,0.7-->
+<!--c0.1-0.5,0.3-0.9,0.5-1.1c-1.8-0.2-3.7-0.9-3.7-4.1c0-0.9,0.3-1.6,0.8-2.2c-0.1-0.2-0.4-1,0.1-2.2c0,0,0.7-0.2,2.3,0.8-->
+<!--C13.6,8.1,14.3,8,15,8c0.7,0,1.4,0.1,2.1,0.3c1.6-1.1,2.3-0.8,2.3-0.8c0.4,1.1,0.2,2,0.1,2.2c0.5,0.6,0.8,1.3,0.8,2.2-->
+<!--c0,3.2-1.9,3.8-3.7,4c0.3,0.3,0.6,0.8,0.6,1.5c0,1.1,0,2,0,2.3c0,0.2,0.1,0.5,0.6,0.4c3.3-1.1,5.6-4.2,5.6-7.8-->
+<!--C23.2,7.7,19.5,4,15,4z"/>-->
+<!--<path class="st1" d="M9.9,15.8c0,0-0.1,0.1-0.1,0c-0.1,0-0.1-0.1-0.1-0.1c0,0,0.1-0.1,0.1,0C9.9,15.7,9.9,15.7,9.9,15.8L9.9,15.8z-->
+<!--M9.8,15.7"/>-->
+<!--<path class="st1" d="M10.2,16.1c0,0-0.1,0-0.2,0C10,16.1,10,16,10,15.9c0,0,0.1,0,0.2,0C10.3,16,10.3,16.1,10.2,16.1L10.2,16.1z-->
+<!--M10.2,16.1"/>-->
+<!--<path class="st1" d="M10.6,16.6c-0.1,0-0.1,0-0.2-0.1c-0.1-0.1-0.1-0.2,0-0.2c0.1,0,0.1,0,0.2,0.1C10.6,16.5,10.6,16.6,10.6,16.6-->
+<!--L10.6,16.6z M10.6,16.6"/>-->
+<!--<path class="st1" d="M11,17.1c0,0-0.1,0-0.2,0c-0.1-0.1-0.1-0.2,0-0.2c0,0,0.1,0,0.2,0C11,16.9,11.1,17,11,17.1L11,17.1z M11,17.1"/>-->
+<!--<path class="st1" d="M11.6,17.3c0,0.1-0.1,0.1-0.2,0.1c-0.1,0-0.2-0.1-0.1-0.2c0-0.1,0.1-0.1,0.2-0.1-->
+<!--C11.6,17.2,11.6,17.3,11.6,17.3L11.6,17.3z M11.6,17.3"/>-->
+<!--<path class="st1" d="M12.3,17.4c0,0.1-0.1,0.1-0.2,0.1c-0.1,0-0.2-0.1-0.2-0.1c0-0.1,0.1-0.1,0.2-0.1-->
+<!--C12.2,17.3,12.3,17.3,12.3,17.4L12.3,17.4z M12.3,17.4"/>-->
+<!--<path class="st1" d="M12.9,17.3c0,0.1-0.1,0.1-0.2,0.2c-0.1,0-0.2,0-0.2-0.1c0-0.1,0.1-0.1,0.2-0.2C12.8,17.2,12.9,17.2,12.9,17.3-->
+<!--L12.9,17.3z M12.9,17.3"/>-->
+<!--</g>-->
+<!--</svg>-->
+<!--</a>-->
+<!--</li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--<div class="footer-text"></div>-->
+<!--</footer>-->
+<!--'site footer' [end]===========================================================================-->
+
+<div class="cookie-banner js-cookie-banner">
+	<p>Insert copy here, which should vary depending on your region. <a class="consent-link" href="#">Accept</a></p>
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6458 -2604 16 16" class='close-btn'>
+		<g id="Group_1479" data-name="Group 1479" transform="translate(-8281.367 -3556.368)">
+			<rect id="Rectangle_6401" data-name="Rectangle 6401" class="stroke" width="1.968" height="20.66" transform="translate(1823.367 953.759) rotate(-45)"/>
+			<rect id="Rectangle_6402" data-name="Rectangle 6402" class="stroke" width="1.968" height="20.66" transform="translate(1824.758 968.368) rotate(-135)"/>
+		</g>
+	</svg>
+</div>
+
+<!--scripts [start]===============================================================================================-->
+<script type="text/javascript">
+    // fix for Safari's back/forward cache
+    window.onpageshow = function(e) {
+        if (e.persisted) { window.location.reload(); }
+    };
+</script>
+<script type="text/javascript">var __config__ = {"page_id":"p5b00925fc322f93e63b8a1ad403b7eb29828aa27e0eda1158ec5e","theme":{"name":"marta"},"pageTransition":true,"linkTransition":true,"disableDownload":false,"lightbox":{"enabled":false},"cookie_banner":{"enabled":false}};</script>
+<script th:src="@{/js/jquery-3.2.1.min.js}" src="../../js/jquery-3.2.1.min.js"></script>
+<script th:src="@{/js/main.js}" src="../../js/main.js"></script>
+<script th:src="@{/js/contact-main.js}" src = "../../js/contact-main.js"></script>
+<script  th:src="@{/js/anchor-links.js}" src = "../../js/anchor-links.js"></script>
+<!--<script src="//cdn.ckeditor.com/4.4.7/standard/ckeditor.js"></script>-->
+
+<!--scripts [end]===============================================================================================-->
+
+</body>
+
+</html>

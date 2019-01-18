@@ -1,0 +1,37 @@
+h1{
+	color:#0000FF;
+}
+
+h2{
+	color:#FF0000;
+}
+
+.demo-about-section {
+	min-height: 100vh;
+
+}
+
+#masthead-placeholder-container {
+	height: 100vh;
+}
+
+.formfieldsdemocontainer {
+	height:300px;
+}
+
+.contactformcontainer {
+	height:100%;
+}
+
+#banner-div {
+	dispay: flex;
+	flex-direction: column;
+}
+
+.box {
+	display: flex;
+}
+.push {
+	margin-left: auto;
+}
+

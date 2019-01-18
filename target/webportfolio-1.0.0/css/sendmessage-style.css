@@ -1,0 +1,142 @@
+html, body{
+    height: 100%;
+    min-height: 100%;
+    background-color: white;
+    background-image: url("https://s3.amazonaws.com/webportfolio-static-resources/background.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#container-wrapper{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-style: solid;
+    border-color: #333333;
+    border-width: 10px;
+    /*height: 50%;*/
+    background-color: #FFFFFF;
+    opacity: .7;
+
+}
+
+.page-text{
+    padding: 50px 0;
+}
+
+.container h1 {
+    font-family: anago, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    color: #333333;
+    text-align: center;
+}
+
+#btn-return-to-homepage {
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 10px 20px;
+    min-width: 200px;
+    height: 50px;
+    background: #333333 !important;
+    font-family: anago, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+#btn-return-to-homepage:hover {
+    background: orangered !important;
+}
+
+#div-social-nav-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.social {
+    box-sizing: border-box;
+    font-size: 0;
+    text-align: center
+}
+
+.social ul {
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    display: inline-block;
+    list-style-type: none;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.social a {
+    background: transparent;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.social a:active,
+.social a:focus,
+.social a:hover {
+    outline: 0;
+}
+
+.social svg {
+    vertical-align: middle;
+    fill: #000000;
+    opacity: 1;
+    overflow: hidden;
+}
+
+/*@media (min-width: 769px) {*/
+    /*.social svg {*/
+        /*height: 40px;*/
+        /*width: 40px;*/
+    /*}*/
+/*}*/
+/*@media (min-width: 541px) and (max-width: 768px) and (min-height: 921.6px) {*/
+    /*.social svg {*/
+        /*height: 40px;*/
+        /*width: 40px;*/
+    /*}*/
+/*}*/
+
+/*@media (max-width: 540px) {*/
+    /*.social svg{*/
+        /*height: 100px;*/
+        /*width: 100px*/
+    /*}}*/
+
+.social a:hover svg {
+    fill: #808080;
+    opacity: 1; }
+
+
+.social a:visited svg {
+    fill: #000000;
+    opacity: 1; }

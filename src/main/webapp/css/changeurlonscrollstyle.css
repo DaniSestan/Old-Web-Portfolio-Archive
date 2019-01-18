@@ -1,0 +1,22 @@
+body {
+    height: 4000px;
+}
+nav {
+    min-height: 100vh;
+}
+
+a > div {
+    min-height: 500px;
+}
+
+.sub-page {
+    height: 100vh;
+}
+
+.container {
+    height:100vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
